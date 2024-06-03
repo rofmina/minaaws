@@ -8,3 +8,7 @@ versioning_configuration {
         }
 
 }
+
+versioning_configuration {
+    status = "Disabled"
+  }
