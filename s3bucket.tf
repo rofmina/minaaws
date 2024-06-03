@@ -1,8 +1,5 @@
 resource "aws_s3_bucket" "bucket1" {
-
-  bucket = "example-bucket"
-}
-
+    count=2
 
 resource "aws_s3_bucket_versioning" "bucket1" {
   bucket = aws_s3_bucket.bucket1.id
