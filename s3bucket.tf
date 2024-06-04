@@ -7,3 +7,4 @@ resource "aws_s3_bucket_versioning" "bucket1[count.index]" {
     status = "Disabled"
   }
 }
+  }
