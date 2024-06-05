@@ -7,7 +7,7 @@ terraform{
     cloud {
         organization = "sami123123123"
       workspaces {
-        name = "aws_demo_montreal_college"
+        name = "minaaws"
       }
     }
 
